@@ -58,6 +58,7 @@ class LoginMenu extends Widget
         ];
         $aOptions = [
             'data-toggle' => 'dropdown',
+            'data-bs-toggle' => 'dropdown',
             'class' => 'dropdown-toggle nav-link',
             'style' => "max-width:{$this->userMaxWidth};overflow:hidden;whitespace:nowrap;text-overflow:ellipsis;"
         ];
