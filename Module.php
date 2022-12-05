@@ -317,7 +317,7 @@ class Module extends YiiModule implements BootstrapInterface
      */
     public function bootstrapNamespace()
     {
-        foreach ([ '4', '3', ''] as $v)  {
+        foreach ([ '5', '4', '3', ''] as $v)  {
             $ns = 'yii/bootstrap' . $v;
             if (strrpos(Yii::getAlias( '@' . $ns, false),'/src') !== false) return str_replace('/', '\\', $ns);
         }
